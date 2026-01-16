@@ -8,4 +8,6 @@ vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Go to upper window" })
 
 vim.keymap.set("n", "<leader>q", "<cmd>q<cr>", { desc = "Quit" })
 vim.keymap.set("n", "<leader>w", "<cmd>w<cr>", { desc = "Save" })
-vim.keymap.set("n", "<leader>f", function() Snacks.picker.files() end, { desc = "File Picker" })
+vim.keymap.set("n", "<leader>f", function()
+	Snacks.picker.files()
+end, { desc = "File Picker" })
