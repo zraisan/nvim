@@ -27,4 +27,5 @@ require("lazy").setup({
 	require("plugins.completion"),
 	require("plugins.lint"),
 	require("plugins.bufferline"),
+	require("plugins.yazi"),
 })
